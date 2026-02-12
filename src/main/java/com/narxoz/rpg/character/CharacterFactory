@@ -1,7 +1,0 @@
-package com.narxoz.rpg.character;
-
-public abstract class CharacterFactory {
-
-    
-    public abstract Character createCharacter(String name);
-}
