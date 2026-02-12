@@ -1,0 +1,11 @@
+public class Archer extends Character {
+
+    public Archer(String name) {
+        super(name, 150, 80, 30, 25);
+    }
+
+    @Override
+    public void useSpecialAbility() {
+        System.out.println("Special Ability: Multi-Shot!");
+    }
+}
