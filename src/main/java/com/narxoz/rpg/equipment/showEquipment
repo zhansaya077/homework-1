@@ -1,3 +1,4 @@
+package com.narxoz.rpg.equipment;
 public void showEquipment() {
     if (weapon != null) {
         System.out.println(weapon.getWeaponInfo());
