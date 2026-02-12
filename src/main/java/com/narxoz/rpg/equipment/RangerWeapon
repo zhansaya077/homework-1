@@ -1,0 +1,14 @@
+package com.narxoz.rpg.equipment;
+
+public class RangerWeapon implements Weapon {
+
+    @Override
+    public String getWeaponInfo() {
+        return "Longbow (Ranger Weapon)";
+    }
+
+    @Override
+    public int getDamage() {
+        return 25;
+    }
+}
