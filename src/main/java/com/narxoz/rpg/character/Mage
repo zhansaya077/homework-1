@@ -1,0 +1,11 @@
+public class Mage extends Character {
+
+    public Mage(String name) {
+        super(name, 100, 200, 10, 40);
+    }
+
+    @Override
+    public void useSpecialAbility() {
+        System.out.println("Special Ability: Meteor Storm!");
+    }
+}
