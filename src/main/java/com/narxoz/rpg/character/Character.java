@@ -1,6 +1,7 @@
  package com.narxoz.rpg.character;
-
-import com.narxoz.rpg.equipment.*;
+import com.narxoz.rpg.equipment.Weapon;
+import com.narxoz.rpg.equipment.Armor;
+import com.narxoz.rpg.factory.EquipmentFactory;
 
 public abstract class Character {
 
