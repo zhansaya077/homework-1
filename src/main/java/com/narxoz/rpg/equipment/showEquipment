@@ -1,0 +1,11 @@
+public void showEquipment() {
+    if (weapon != null) {
+        System.out.println(weapon.getWeaponInfo());
+        System.out.println("Damage: " + weapon.getDamage());
+    }
+
+    if (armor != null) {
+        System.out.println(armor.getArmorInfo());
+        System.out.println("Defense: " + armor.getDefense());
+    }
+}
