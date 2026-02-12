@@ -1,0 +1,14 @@
+package com.narxoz.rpg.equipment;
+
+public class RangerArmor implements Armor {
+
+    @Override
+    public String getArmorInfo() {
+        return "Leather Armor (Ranger Armor)";
+    }
+
+    @Override
+    public int getDefense() {
+        return 15;
+    }
+}
