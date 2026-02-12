@@ -1,0 +1,14 @@
+package com.narxoz.rpg.equipment;
+
+public class MagicArmor implements Armor {
+
+    @Override
+    public String getArmorInfo() {
+        return "Mystic Robe";
+    }
+
+    @Override
+    public int getDefense() {
+        return 15;
+    }
+}
