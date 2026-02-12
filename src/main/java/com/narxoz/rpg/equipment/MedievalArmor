@@ -1,0 +1,14 @@
+package com.narxoz.rpg.equipment;
+
+public class MedievalArmor implements Armor {
+
+    @Override
+    public String getArmorInfo() {
+        return "Iron Plate Armor";
+    }
+
+    @Override
+    public int getDefense() {
+        return 40;
+    }
+}
