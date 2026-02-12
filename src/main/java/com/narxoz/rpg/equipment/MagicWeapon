@@ -1,0 +1,14 @@
+package com.narxoz.rpg.equipment;
+
+public class MagicWeapon implements Weapon {
+
+    @Override
+    public String getWeaponInfo() {
+        return "Magic Staff";
+    }
+
+    @Override
+    public int getDamage() {
+        return 35;
+    }
+}
