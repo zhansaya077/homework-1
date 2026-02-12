@@ -1,0 +1,14 @@
+package com.narxoz.rpg.equipment;
+
+public class MedievalWeapon implements Weapon {
+
+    @Override
+    public String getWeaponInfo() {
+        return "Steel Sword";
+    }
+
+    @Override
+    public int getDamage() {
+        return 25;
+    }
+}
